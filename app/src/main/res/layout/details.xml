@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark">
+
+    <TextView
+        android:id="@+id/passiva"
+        android:layout_width="170dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="2sp"
+        android:textColor="#FFFFFF"
+        app:autoSizeMaxTextSize="16sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/select2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_fgh"
+        app:layout_constraintVertical_bias="0.23" />
+
+    <TextView
+        android:id="@+id/special"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="2sp"
+        android:textColor="#FFFFFF"
+        app:autoSizeMaxTextSize="16sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/select2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/passiva"
+        app:layout_constraintTop_toBottomOf="@+id/img_fgh"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <TextView
+        android:id="@+id/cls"
+        android:layout_width="48dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="BRUISER"
+        android:textColor="#2196F3"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toEndOf="@+id/lutador_nome"
+        app:layout_constraintTop_toBottomOf="@+id/exit13" />
+
+    <Button
+        android:id="@+id/sound"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@android:drawable/ic_lock_silent_mode_off"
+        android:onClick="play_song_ambient"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/exit13"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.015" />
+
+    <Button
+        android:id="@+id/select"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="56dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:background="#25CC00"
+        android:gravity="center"
+        android:onClick="select_show"
+        android:text="OK"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/special" />
+
+    <Button
+        android:id="@+id/main_menu7"
+        android:layout_width="53dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:background="#21A626"
+        android:onClick="menu_return"
+        android:text="Menu"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/exit13"
+        android:layout_width="52dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#4CAF50"
+        android:onClick="exit"
+        android:text="Exit"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/lutador_nome"
+        android:layout_width="167dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center_horizontal"
+        android:text="TextView"
+        android:textColor="#FFEB3B"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_fgh"
+        android:layout_width="230dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="5dp"
+        android:onClick="selected"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lutador_nome"
+        tools:srcCompat="@drawable/assassin" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animationCache="false"
+    android:background="@color/design_default_color_on_secondary">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="50dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:text="ID 1º"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/textView15"
+        app:layout_constraintStart_toEndOf="@+id/textView52"
+        app:layout_constraintTop_toBottomOf="@+id/t1" />
+
+    <EditText
+        android:id="@+id/id2"
+        android:layout_width="50dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toStartOf="@+id/id3"
+        app:layout_constraintStart_toEndOf="@+id/id1"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="50dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="ID 2º"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/textView17"
+        app:layout_constraintStart_toEndOf="@+id/textView16"
+        app:layout_constraintTop_toBottomOf="@+id/t2" />
+
+    <EditText
+        android:id="@+id/id3"
+        android:layout_width="50dp"
+        android:layout_height="22dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="50dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        android:text="ID 3º"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t3" />
+
+    <EditText
+        android:id="@+id/id1"
+        android:layout_width="50dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toStartOf="@+id/id2"
+        app:layout_constraintStart_toEndOf="@+id/l19"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="50dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Dano 2º"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/textView14"
+        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/l17" />
+
+    <EditText
+        android:id="@+id/t2"
+        android:layout_width="50dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toStartOf="@+id/t3"
+        app:layout_constraintStart_toEndOf="@+id/t1"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="50dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Dano 1º"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/textView13"
+        app:layout_constraintStart_toEndOf="@+id/textView55"
+        app:layout_constraintTop_toBottomOf="@+id/l16" />
+
+    <EditText
+        android:id="@+id/t1"
+        android:layout_width="50dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toStartOf="@+id/t2"
+        app:layout_constraintStart_toEndOf="@+id/l18"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="50dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        android:text="Dano 3º"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l17" />
+
+    <EditText
+        android:id="@+id/t3"
+        android:layout_width="50dp"
+        android:layout_height="22dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:text="Escudeiro"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/textView43"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/l15"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView57" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="10dp"
+        android:text="Assassino"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l0" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="10dp"
+        android:text="Ninja"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/l18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l15" />
+
+    <EditText
+        android:id="@+id/l18"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView55" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:text="ORC"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/textView48"
+        app:layout_constraintStart_toEndOf="@+id/textView45"
+        app:layout_constraintTop_toBottomOf="@+id/l7" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:text="Samurai"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l11" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:text="Lanceiro"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l5" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:text="Urso"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l14" />
+
+    <EditText
+        android:id="@+id/l10"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toStartOf="@+id/l11"
+        app:layout_constraintStart_toEndOf="@+id/l9"
+        app:layout_constraintTop_toBottomOf="@+id/textView44" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="10dp"
+        android:text="Curandeira"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l6" />
+
+    <EditText
+        android:id="@+id/l0"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <EditText
+        android:id="@+id/l1"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toStartOf="@+id/l2"
+        app:layout_constraintStart_toEndOf="@+id/l0"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <EditText
+        android:id="@+id/l2"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+    <EditText
+        android:id="@+id/l3"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+    <EditText
+        android:id="@+id/l4"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toStartOf="@+id/l5"
+        app:layout_constraintStart_toEndOf="@+id/l3"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    <EditText
+        android:id="@+id/l5"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+    <EditText
+        android:id="@+id/l6"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView47" />
+
+    <EditText
+        android:id="@+id/l7"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toStartOf="@+id/l8"
+        app:layout_constraintStart_toEndOf="@+id/l6"
+        app:layout_constraintTop_toBottomOf="@+id/textView49" />
+
+    <EditText
+        android:id="@+id/l8"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView46" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:text="Paladino"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/textView54"
+        app:layout_constraintStart_toEndOf="@+id/textView50"
+        app:layout_constraintTop_toBottomOf="@+id/l10" />
+
+    <EditText
+        android:id="@+id/l17"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView53" />
+
+    <EditText
+        android:id="@+id/l14"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView54" />
+
+    <EditText
+        android:id="@+id/l11"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView48" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:text="Gladiador"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/textView53"
+        app:layout_constraintStart_toEndOf="@+id/textView57"
+        app:layout_constraintTop_toBottomOf="@+id/l13" />
+
+    <EditText
+        android:id="@+id/l13"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toStartOf="@+id/l14"
+        app:layout_constraintStart_toEndOf="@+id/l12"
+        app:layout_constraintTop_toBottomOf="@+id/textView58" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="10dp"
+        android:text="Lutador Mist"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/l19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l18" />
+
+    <EditText
+        android:id="@+id/l12"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView50" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:text="Monge"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l8" />
+
+    <EditText
+        android:id="@+id/l16"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toStartOf="@+id/l17"
+        app:layout_constraintStart_toEndOf="@+id/l15"
+        app:layout_constraintTop_toBottomOf="@+id/textView56" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:text="Viking"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l2" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="10dp"
+        android:text="Caçador"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l9" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:text="Bruxa"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/textView46"
+        app:layout_constraintStart_toEndOf="@+id/textView47"
+        app:layout_constraintTop_toBottomOf="@+id/l4" />
+
+    <EditText
+        android:id="@+id/l9"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView45" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:text="Mago"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="10dp"
+        android:text="Druida"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l12" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="10dp"
+        android:text="Berserker"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l3" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="10dp"
+        android:text="Goblin"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/l19"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView52" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:text="Arqueira"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/textView42"
+        app:layout_constraintStart_toEndOf="@+id/textView23"
+        app:layout_constraintTop_toBottomOf="@+id/l1" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="61dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="#FFEB3B"
+        android:onClick="saved_out"
+        android:text="Save"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/round"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Rodada"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView32"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="52dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="215dp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="10dp"
+        android:text="Ataque"
+        android:textColor="#FF5722"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="HP"
+        android:textColor="#FF5722"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView27"
+        app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+    <TextView
+        android:id="@+id/a3"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        app:autoSizeTextType="none"
+        app:layout_constraintEnd_toStartOf="@+id/h3"
+        app:layout_constraintStart_toEndOf="@+id/ft3"
+        app:layout_constraintTop_toBottomOf="@+id/a2" />
+
+    <TextView
+        android:id="@+id/h1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:text="300"
+        android:textColor="#03A9F4"
+        android:textSize="18dp"
+        app:autoSizeTextType="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+    <TextView
+        android:id="@+id/h5"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#03A9F4"
+        android:textSize="18dp"
+        app:autoSizeTextType="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/h4" />
+
+    <TextView
+        android:id="@+id/a5"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        app:autoSizeTextType="none"
+        app:layout_constraintEnd_toStartOf="@+id/h5"
+        app:layout_constraintStart_toEndOf="@+id/ft5"
+        app:layout_constraintTop_toBottomOf="@+id/a4" />
+
+    <TextView
+        android:id="@+id/h4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#03A9F4"
+        android:textSize="18dp"
+        app:autoSizeTextType="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/h3" />
+
+    <TextView
+        android:id="@+id/h2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#03A9F4"
+        android:textSize="18dp"
+        app:autoSizeTextType="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/h1" />
+
+    <TextView
+        android:id="@+id/a1"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:text="30-50"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        app:autoSizeTextType="none"
+        app:layout_constraintEnd_toStartOf="@+id/h1"
+        app:layout_constraintStart_toEndOf="@+id/ft1"
+        app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+    <TextView
+        android:id="@+id/h3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#03A9F4"
+        android:textSize="18dp"
+        app:autoSizeTextType="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/h2" />
+
+    <TextView
+        android:id="@+id/a4"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        app:autoSizeTextType="none"
+        app:layout_constraintEnd_toStartOf="@+id/h4"
+        app:layout_constraintStart_toEndOf="@+id/ft4"
+        app:layout_constraintTop_toBottomOf="@+id/a3" />
+
+    <TextView
+        android:id="@+id/a2"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        app:autoSizeTextType="none"
+        app:layout_constraintEnd_toStartOf="@+id/h2"
+        app:layout_constraintStart_toEndOf="@+id/ft2"
+        app:layout_constraintTop_toBottomOf="@+id/a1" />
+
+    <Button
+        android:id="@+id/auto"
+        android:layout_width="96dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFC107"
+        android:onClick="setAutomatic"
+        android:text="Auto Off"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/sound"
+        app:layout_constraintStart_toEndOf="@+id/main_menu7"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="34dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="3/4"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/next3"
+        app:layout_constraintStart_toEndOf="@+id/next2" />
+
+    <Button
+        android:id="@+id/next3"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="#000000"
+        android:drawableTop="@android:drawable/ic_media_ff"
+        android:onClick="states4"
+        android:textColor="#0B0A0A"
+        android:textSize="24sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/next" />
+
+    <Button
+        android:id="@+id/next2"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="#000000"
+        android:drawableTop="@android:drawable/ic_media_rew"
+        android:onClick="states2"
+        android:textColor="#0B0A0A"
+        android:textSize="24sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/ft5"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dp"
+        android:textColor="#FFEB3B"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ft4" />
+
+    <TextView
+        android:id="@+id/ft4"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dp"
+        android:textColor="#FFEB3B"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ft3" />
+
+    <TextView
+        android:id="@+id/ft3"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dp"
+        android:textColor="#FFEB3B"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ft2" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="70dp"
+        android:text="Saúde dos Lutadores"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/round3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ft2"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dp"
+        android:textColor="#FFEB3B"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ft1" />
+
+    <TextView
+        android:id="@+id/ft1"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:text="fighter 1"
+        android:textColor="#FFEB3B"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+    <Button
+        android:id="@+id/sound"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/ic_lock_silent_mode_off"
+        android:onClick="play_song_ambient"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.761"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.014" />
+
+    <Button
+        android:id="@+id/next"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="158dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#FF0000"
+        android:onClick="Battle"
+        android:text="Continuar Batalha"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/main_menu7"
+        android:layout_width="53dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:background="#21A626"
+        android:onClick="menu_return"
+        android:text="Menu"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/exit13"
+        android:layout_width="52dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:background="#4CAF50"
+        android:onClick="exit"
+        android:text="Exit"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

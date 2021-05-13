@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="43dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="16dp"
+        android:text="1/2"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintStart_toEndOf="@+id/main_menu7" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="52dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="16dp"
+        android:background="#000000"
+        android:drawableTop="@android:drawable/ic_media_ff"
+        android:onClick="score2"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/main_menu"
+        app:layout_constraintStart_toEndOf="@+id/textView9" />
+
+    <Button
+        android:id="@+id/main_menu"
+        android:layout_width="108dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="16dp"
+        android:background="#FFEB3B"
+        android:onClick="estati"
+        android:text="Detalhes"
+        android:textColor="#000000"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/select"
+        android:layout_width="190dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Score (Cronológico)"
+        android:textColor="#FFEB3B"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/sound"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sound"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/ic_lock_silent_mode_off"
+        android:onClick="play_song_ambient"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.761"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.014" />
+
+    <Button
+        android:id="@+id/main_menu7"
+        android:layout_width="77dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="16dp"
+        android:background="#21A626"
+        android:onClick="menu_return"
+        android:text="Menu"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/exit13"
+        android:layout_width="52dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:background="#4CAF50"
+        android:onClick="exit"
+        android:text="Exit"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/ato2"
+        android:layout_width="301dp"
+        android:layout_height="388dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="20dp"
+        android:lineSpacingExtra="3sp"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/main_menu7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/select2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
